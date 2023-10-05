@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: "Lora", serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  height: 14%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6em;
+  /* box-shadow: rgba(122, 122, 132, 0.2) 0px 7px 29px 0px; */
+}
+
+nav img {
+  width: 190px;
+}
+
+.nav-items {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.icon {
+  display: flex;
+  gap: 0.2rem;
+}
+
+ion-icon {
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  color: #020617;
+  opacity: 0.8;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+button {
+  background-color: #d0bfff;
+  border-radius: 100px;
+  /* box-shadow: #dfccfb 0 -25px 18px -14px inset, #dfccfb 0 1px 2px,
+    #dfccfb 0 2px 4px, #dfccfb 0 4px 8px, #dfccfb 0 8px 16px,
+    #dfccfb 0 16px 32px; */
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: #dfccfb 0 -25px 18px -14px inset, #dfccfb 0 1px 2px,
+    #dfccfb 0 2px 4px, #dfccfb 0 4px 8px, #dfccfb 0 8px 16px,
+    #dfccfb 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.btns {
+  display: flex;
+  gap: 1.2em;
+  align-items: center;
+  margin-left: 5.7em;
+}
+
+section {
+  background-image: url(./images/gradient\ bg.png);
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.content {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero-img {
+  margin-top: 1.5rem;
+  width: 260px;
+  border-radius: 160px;
+}
+
+.logo-container {
+  display: flex;
+  gap: 6rem;
+}
+
+.flower-logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 1.3rem;
+}
+
+h1 {
+  font-size: 88px;
+  font-weight: 200;
+  color: #020617;
+  opacity: 0.8;
+}
+
+.description {
+  margin-top: 1.7rem;
+  margin-left: -7rem;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.7;
+  text-align: left;
+  color: #020617;
+  opacity: 0.8;
+}
+
+.img-sec {
+  margin-left: 66rem;
+  margin-top: -10rem;
+}
+
+.img-sec img {
+  width: 220px;
+  border-radius: 160px;
+}
